@@ -10,7 +10,7 @@ import Foundation
 import NetworkHelper
 
 class PhotoAPI  {
-    static func fetchPhotos()   {
+    static func fetchPhotos(completion: @escaping (Result<Photo, AppError>) -> ())   {
         
     }
 }
